@@ -1,0 +1,13 @@
+patient_id,gender,dob,last_name
+P001,M,1999-04-12,Sharma
+P002,F,2001-09-23,Reddy
+P001,M,1999-04-12,Sharma
+P002,F,2001-09-23,Reddy
+P003,M,1987-01-05,Patel
+P004,F,1995-07-18,Iyer
+P005,M,1978-11-30,Gupta
+P006,F,2003-03-09,Chatterjee
+P007,M,1990-06-25,Verma
+P008,F,1984-12-14,Nair
+P009,M,2006-08-02,Khan
+P010,F,1992-02-27,Mehta

@@ -1,0 +1,19 @@
+HAPI FHIR Infrastructure Setup
+
+Docker Desktop was used to deploy a HAPI FHIR R4 server in a containerized environment.
+
+Command used to start the server:
+
+docker run -d --name hapi-fhir-server -p 8081:8080 hapiproject/hapi:latest
+
+Port Mapping Explanation:
+- Container Port 8080: HAPI FHIR internal server port
+- Host Port 8081: Exposed port to access the server from the browser
+
+Benefits of Docker:
+- Avoids Java and database installation
+- Ensures consistent runtime environment across systems
+- Simplifies deployment and teardown
+
+FHIR Server URL:
+http://localhost:8081/fhir
